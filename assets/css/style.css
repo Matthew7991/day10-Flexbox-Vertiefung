@@ -131,7 +131,7 @@ header article p img{
 */
 
 main > img {
-    width: 100vw;
+    width: 100%;
 }
 
 main > div {
