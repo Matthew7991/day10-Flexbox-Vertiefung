@@ -120,6 +120,82 @@ header article p{
     padding-top: 1rem;
 }
 
-/* header article p::after {
-    content: url(../img/rocket.png);
-} */
+header article p img{
+    height: 1.5em;
+}
+
+/* 
+==================================================================
+                                Main
+==================================================================
+*/
+
+main > img {
+    width: 100vw;
+}
+
+main > div {
+    padding: 100px var(--main-padding);
+}
+
+/* 
+==================================================================
+                                About
+==================================================================
+*/
+
+.about > article {
+    display: flex;
+}
+
+.about > article h2 {
+    width: 25%;
+    flex-grow: 0;
+    /* max-width: 12em; */
+    /* flex-basis: 1; */
+    /* padding-right: 100px; */
+}
+
+.about > article h2 img {
+    height: 1em;
+}
+
+.about > article p {
+    width: 75%;
+    padding: 0 100px;
+    /* flex-basis: 2; */
+}
+
+.about > h2 {
+    width: 66%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.about > div {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* gap: 25%; */
+    justify-content: space-between;
+}
+
+.about > div:not(:last-of-type) {
+    margin-bottom: 50px;
+}
+
+.card {
+    max-width: 40%;
+    display: flex;
+    align-items: baseline;
+}
+
+.card img {
+    width: 32px;
+    margin-right: 25px;
+}
+
+.card div p {
+    margin-top: 1rem;
+    line-height: 2em;
+}
