@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Roboto Ligth";
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter Regular";
+    src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+:root {
+    --font-default: "Roboto Ligth";
+    --font-default-bold: "Roboto Bold";
+    --font-default-regular: "Roboto Regular";
+    --font-findTheProblem: "Inter Regular";
+    --font-interact: "Inter Regular";
+    --main-padding: 120px;
+    --font-size-default: 1.125rem;
+    --font-size-card: 0.875rem;
+    --font-size-header-main: 3.375rem; /* h1 */
+    --font-size-header-regular: 2.375rem; /* h2 */
+    --font-size-header-sub: 1.75rem; /* h3 */
+    --font-size-header-card: 1.125rem; /* h4 */
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: var(--font-default);
+    color: black;
+}
+
+a {
+    color: inherit;
+}
+
+h1 {
+    font-family: var(--font-default-regular);
+    font-weight: 600;
+    color: #0B0C17;
+    font-size: var(--font-size-header-main);
+}
+
+h2 {
+    font-family: var(--font-default-regular);
+    font-weight: 600;
+    font-size: var(--font-size-header-regular);
+}
+
+h3 {
+    font-family: var(--font-default-regular);
+    font-weight: 600;
+    font-size: var(--font-size-header-sub);
+}
+
+h4 {
+    font-family: var(--font-default-bold);
+    font-size: var(--font-size-header-card);
+}
+
+p {
+    line-height: 1.75rem;
+    font-size: var(--font-size-default);
+}
+
+/* 
+==================================================================
+                                Header
+==================================================================
+*/
+
+header {
+    padding: 38px var(--main-padding);
+    height: 100vh;
+    background: 
+    url(../img/ilustracion_people.png) top right/ 50% no-repeat,
+    url(../img/ilustracion1.png) top right/ 50% no-repeat;
+}
+
+header > p {
+    font-family: var(--font-default-regular);
+    font-size: 0.75rem;
+}
+
+header section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header section h4 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #FF3571;
+}
+
+header article {
+    margin-left: 50px;
+    width: 50%;
+    margin-top: auto;
+    justify-content: end;
+}
+
+header article p{
+    padding-top: 1rem;
+}
+
+/* header article p::after {
+    content: url(../img/rocket.png);
+} */
