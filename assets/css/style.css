@@ -199,3 +199,58 @@ main > div {
     margin-top: 1rem;
     line-height: 2em;
 }
+
+/* 
+==================================================================
+                                Challenges
+==================================================================
+*/
+
+.challenges {
+    padding-top: 100px;
+}
+
+.challenges > h3,
+.challenges > p {
+    text-align: center;
+    max-width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.challenges > p {
+    margin-top: 25px;
+}
+
+.challenge {
+    margin-top: 100px;
+    display: flex;
+    column-gap: 100px;
+}
+
+.challenge:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+
+.challenge > img {
+    min-width: 50%;
+}
+
+.challenge article img {
+    margin: 50px 0;
+    /* width: 40px;
+    font-family: var(--font-findTheProblem);
+    font-size: 45px;
+    text-align: center; */
+}
+
+.challenge .number {
+    font-family: var(--font-default-bold);
+    font-size: 3.25rem;
+    color: #DDDDDD;
+}
+
+.text {
+    margin-top: 25px;
+    line-height: 2em;
+}
