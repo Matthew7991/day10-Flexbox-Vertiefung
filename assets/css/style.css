@@ -260,8 +260,41 @@ main > div {
                                 Subscribe
 ==================================================================
 */
+.subscribe {
+    text-align: center;
+    margin-top: 100px;
+}
 
+.subscribe p {
+    font-size: var(--font-size-card);
+}
 
+.subscribe form {
+    margin-top: 50px;
+}
+
+.subscribe input {
+    width: 33%;
+    border: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.subscribe button {
+    display: block;
+    background-color: #FF3571;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 64px;
+    border-radius: 10px;
+    box-shadow: none;
+    margin-top: 50px;
+}
+
+.subscribe p {
+    margin-top: 25px;
+}
 
 /* 
 ==================================================================
